@@ -1,4 +1,4 @@
-# Minerva Story README
+# gaglia-2020-gemm-lung
 
 ## Contact Information
 
