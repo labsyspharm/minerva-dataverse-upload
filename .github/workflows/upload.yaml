@@ -12,7 +12,7 @@ jobs:
         with:
           DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
           DATAVERSE_SERVER: https://dataverse.harvard.edu
-          DATAVERSE_DATASET_DOI: 10.7910/DVN/HOFPZJ
+          DATAVERSE_DATASET_DOI: doi:10.7910/DVN/HOFPZJ
           GITHUB_DIR: gaglia-2020-0813
           DELETE: False
           PUBLISH: False 
@@ -26,7 +26,7 @@ jobs:
         with:
           DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
           DATAVERSE_SERVER: https://dataverse.harvard.edu
-          DATAVERSE_DATASET_DOI: 10.7910/DVN/FO1M99
+          DATAVERSE_DATASET_DOI: doi:10.7910/DVN/FO1M99
           GITHUB_DIR: gaglia-2020-gemm-lung 
           DELETE: False
           PUBLISH: False 
@@ -40,7 +40,7 @@ jobs:
         with:
           DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
           DATAVERSE_SERVER: https://dataverse.harvard.edu
-          DATAVERSE_DATASET_DOI: 10.7910/DVN/BAPIVM
+          DATAVERSE_DATASET_DOI: doi:10.7910/DVN/BAPIVM
           GITHUB_DIR: lin-2021-viz-97
           DELETE: False
           PUBLISH: False 
@@ -54,7 +54,7 @@ jobs:
         with:
           DATAVERSE_TOKEN: ${{secrets.DATAVERSE_TOKEN}}
           DATAVERSE_SERVER: https://dataverse.harvard.edu
-          DATAVERSE_DATASET_DOI: 10.7910/DVN/RAIJKQ
+          DATAVERSE_DATASET_DOI: doi:10.7910/DVN/RAIJKQ
           GITHUB_DIR: lin-2021-reg_96_97
           DELETE: False
           PUBLISH: False 
