@@ -6,10 +6,23 @@
 - Data Manager: Sarah Arena, Laboratory of Systems Pharmacology, Harvard Medical School (`sarah_arena@hms.harvard.edu`)
 
 ## Harvard Dataverse Directory Structure
+
+After expanding the entire story archive `dataverse_files.zip` to:
+
+```
+├── STORY-NAME.zip
+'── STORY-NAME
+```
+
+1. Move `STORY-NAME.zip` within `STORY-NAME`
+2. Then, expand the `STORY-NAME.zip` archive
+
+The unextracted directories will appear as follows:
+
 ```
 ├── README.md
 '── STORY-NAME
-  ├── STORY-NAME.zip
+  ├── STORY-NAME
   |   ├──- channel-group
   |   |   '── image tiles (.jpg)
   |   ├──- masks (optional)
