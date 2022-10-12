@@ -7,7 +7,9 @@
 
 ## Harvard Dataverse Directory Structure
 
-First, expand the `dataverse_files.zip` archive. Then, move or copy `STORY-NAME.zip` to `STORY-NAME`. Finally, expand the `STORY-NAME.zip` archive.
+1. First, expand the `dataverse_files.zip` archive.
+2. Then, move or copy `STORY-NAME.zip` to `STORY-NAME`.
+3. Finally, expand the `STORY-NAME.zip` archive.
 
 The unextracted directories will appear as follows:
 
