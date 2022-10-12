@@ -7,6 +7,8 @@
 
 ## Harvard Dataverse Directory Structure
 
+This repository references stories uploaded to the [Harvard Dataverse](https://dataverse.harvard.edu/). Due to the scale of many separate JPEG/PNG files in a minerva story, we have combined the JPEG/PNG files into additonal ZIP archives for easier management within the Dataverse. Each complete story referenced in this repository can be extracted from the dataverse as follows:
+
 1. First, expand the `dataverse_files.zip` archive.
 2. Then, move or copy `STORY-NAME.zip` to `STORY-NAME`.
 3. Finally, expand the `STORY-NAME.zip` archive.
@@ -30,7 +32,7 @@ The unextracted directories will appear as follows:
 ```
 ## Archive Extraction 
 
-Due to the large number of separate JPEG/PNG files in a minerva story, we have combined the JPEG/PNG files into a single ZIP archive for easier management within Dataverse. To unpack the JPEG/PNG files into the proper location for correct functioning of the story, download and unzip the following zip archives into the corresponding directories:
+To unpack the JPEG/PNG files into the proper location for correct functioning of the story, download and unzip the following zip archives into the corresponding directories:
 
 - Unzip [`lin-2021-viz-97.zip`][0] within `lin-2021-viz-97`
 - Unzip [`lin-2021-reg_96_97.zip`][1] within `lin-2021-reg_96_97`
