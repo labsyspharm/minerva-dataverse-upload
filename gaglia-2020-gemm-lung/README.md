@@ -6,10 +6,19 @@
 - Data Manager: Sarah Arena, Laboratory of Systems Pharmacology, Harvard Medical School (`sarah_arena@hms.harvard.edu`)
 
 ## Harvard Dataverse Directory Structure
+
+[Access the full story][full] on the [Harvard Dataverse](https://dataverse.harvard.edu/). The many separate JPEG/PNG files in each Minerva Story have been compressed into additonal ZIP archives for easier management within the Dataverse. Each complete story referenced in this repository can be extracted from the dataverse as follows:
+
+1. First, expand the `dataverse_files.zip` archive.
+2. Then, move or copy `gaglia-2020-gemm-lung.zip` to `gaglia-2020-gemm-lung`.
+3. Finally, expand the `gaglia-2020-gemm-lung.zip` archive.
+
+The unextracted directories will appear as follows:
+
 ```
 ├── README.md
-'── STORY-NAME
-  ├── STORY-NAME.zip
+'── gaglia-2020-gemm-lung
+  ├── gaglia-2020-gemm-lung.zip
   |   ├──- channel-group
   |   |   '── image tiles (.jpg)
   |   ├──- masks (optional)
@@ -21,15 +30,6 @@
   '── img (optional)
       '── illustrations (.png)
 ```
-## Archive Extraction 
-
-Due to the large number of separate JPEG/PNG files in a minerva story, we have combined the JPEG/PNG files into a single ZIP archive for easier management within Dataverse. To unpack the JPEG/PNG files into the proper location for correct functioning of the story, download and unzip the following zip archives into the corresponding directories:
-
-- Unzip [`gaglia-2020-gemm-lung.zip`][3] within `gaglia-2020-gemm-lung`
-
-The zip archive will be created a subdirectory with the same name as the parent, ie:
-
-- `gaglia-2020-gemm-lung/gaglia-2020-gemm-lung`
 
 ## File Descriptions
 
@@ -45,4 +45,4 @@ The zip archive will be created a subdirectory with the same name as the parent,
 - JPEG: channel-group/tile-location.jpg (e.g., `AKT_34__AKT/0_0_7.jpg`)
 - PNG: mask-group/tile-location.png (e.g., `TNP097_21types/0_0_7.png`)
 
-[3]:https://dataverse.harvard.edu/file.xhtml?fileId=6561233
+[full]:https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/FO1M99
