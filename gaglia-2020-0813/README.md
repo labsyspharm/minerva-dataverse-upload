@@ -25,17 +25,11 @@
 
 Due to the large number of separate JPEG/PNG files in a minerva story, we have combined the JPEG/PNG files into a single ZIP archive for easier management within Dataverse. To unpack the JPEG/PNG files into the proper location for correct functioning of the story, download and unzip the following zip archives into the corresponding directories:
 
-- Unzip [`lin-2021-viz-97.zip`][0] within `lin-2021-viz-97`
-- Unzip [`lin-2021-reg_96_97.zip`][1] within `lin-2021-reg_96_97`
 - Unzip [`gaglia-2020-0813.zip`][2] within `gaglia-2020-0813`
-- Unzip [`gaglia-2020-gemm-lung.zip`][3] within `gaglia-2020-gemm-lung`
 
 The zip archive will be created a subdirectory with the same name as the parent, ie:
 
-- `lin-2021-viz-97/lin-2021-viz-97`
-- `lin-2021-reg_96_97/lin-2021-reg_96_97`
 - `gaglia-2020-0813/gaglia-2020-0813`
-- `gaglia-2020-gemm-lung/gaglia-2020-gemm-lung`
 
 ## File Descriptions
 
@@ -51,7 +45,5 @@ The zip archive will be created a subdirectory with the same name as the parent,
 - JPEG: channel-group/tile-location.jpg (e.g., `AKT_34__AKT/0_0_7.jpg`)
 - PNG: mask-group/tile-location.png (e.g., `TNP097_21types/0_0_7.png`)
 
-[0]:https://dataverse.harvard.edu/file.xhtml?fileId=6561382
-[1]:https://dataverse.harvard.edu/file.xhtml?fileId=6561383
+
 [2]:https://dataverse.harvard.edu/file.xhtml?fileId=6565940
-[3]:https://dataverse.harvard.edu/file.xhtml?fileId=6561233
