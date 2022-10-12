@@ -7,7 +7,7 @@
 
 ## Harvard Dataverse Directory Structure
 
-This repository references stories uploaded to the [Harvard Dataverse](https://dataverse.harvard.edu/). The many separate JPEG/PNG files in a Minerva Story have been compressed into additonal ZIP archives for easier management within the Dataverse. Each complete story referenced in this repository can be extracted from the dataverse as follows:
+This repository references stories uploaded to the [Harvard Dataverse](https://dataverse.harvard.edu/). The many separate JPEG/PNG files in each Minerva Story have been compressed into additonal ZIP archives for easier management within the Dataverse. Each complete story referenced in this repository can be extracted from the dataverse as follows:
 
 1. First, expand the `dataverse_files.zip` archive.
 2. Then, move or copy `STORY-NAME.zip` to `STORY-NAME`.
