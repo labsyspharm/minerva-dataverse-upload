@@ -4,6 +4,8 @@ on:
 jobs:
   gaglia-2020-0813:
     runs-on: ubuntu-latest
+    environment:
+      name: dataverse-upload
     steps:
       - name: Send to Dataverse 
         uses: IQSS/dataverse-uploader@v1.3
@@ -16,6 +18,8 @@ jobs:
           PUBLISH: False 
   gaglia-2020-gemm-lung:
     runs-on: ubuntu-latest
+    environment:
+      name: dataverse-upload
     steps:
       - name: Send to Dataverse 
         uses: IQSS/dataverse-uploader@v1.3
@@ -28,6 +32,8 @@ jobs:
           PUBLISH: False 
   lin-2021-viz-97:
     runs-on: ubuntu-latest
+    environment:
+      name: dataverse-upload
     steps:
       - name: Send to Dataverse 
         uses: IQSS/dataverse-uploader@v1.3
@@ -40,6 +46,8 @@ jobs:
           PUBLISH: False 
   lin-2021-reg_96_97: 
     runs-on: ubuntu-latest
+    environment:
+      name: dataverse-upload
     steps:
       - name: Send to Dataverse 
         uses: IQSS/dataverse-uploader@v1.3
